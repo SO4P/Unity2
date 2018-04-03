@@ -25,11 +25,18 @@
         
  + 3、
   
-            void Start(){
-                Rigidbody rb;
-                rb = GetComponent<Rigidbody>();
-                rigidbody.velocity =new Vector3 (3, 10, 0);
-            }
+            using UnityEngine;
+			using System.Collections;
+
+			public class ExampleClass : MonoBehaviour
+			{
+    			public Rigidbody rb;
+    			void Start()
+    			{
+       				rb = GetComponent<Rigidbody>();
+        			rb.velocity =new Vector3 (3, 10, 0);
+    			}
+			}
 
 
 + 写一个程序，实现一个完整的太阳系， 其他星球围绕太阳的转速必须不一样，且不在一个法平面上。
