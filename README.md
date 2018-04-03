@@ -51,4 +51,4 @@
 |修改牧师、恶魔数量|牧师、恶魔数量更改|
 
 +UML类图
-
+![uml](https://github.com/SO4P/Unity2/blob/master/Assets/Materials/2.1.png)
